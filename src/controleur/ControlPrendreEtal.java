@@ -18,6 +18,8 @@ public class ControlPrendreEtal {
 
 	public int prendreEtal(String nomVendeur, String produit, int nbProduit) {
 		//TODO a completer
+		village.trouverHabitant(nomVendeur);
+		
 		int numeroEtal = -1;
 		return numeroEtal;
 	}
