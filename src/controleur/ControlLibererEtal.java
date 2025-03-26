@@ -10,7 +10,7 @@ public class ControlLibererEtal {
 		this.controlTrouverEtalVendeur = controlTrouverEtalVendeur;
 	}
 
-	boolean isVendeur(String nomVendeur) {
+	public boolean isVendeur(String nomVendeur) {
 		Etal etal = controlTrouverEtalVendeur.trouverEtalVendeur(nomVendeur);
 		return etal != null;
 	}
