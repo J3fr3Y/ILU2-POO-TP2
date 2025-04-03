@@ -19,6 +19,12 @@ class ControlVerifierIdentiteTest {
 		abraracourcix = new Chef("Abraracourcix", 10, village);
 		village.setChef(abraracourcix);
 	}
+	
+	@Test
+	void testControlVerifierIdentite() {
+		ControlVerifierIdentite controlVerifierIdentite = new ControlVerifierIdentite(village);
+		assertNotNull(controlVerifierIdentite,"Constructeur ne revnoie pas null");
+	}
 
 	@Test
 	void testVerifierIdentite() {
